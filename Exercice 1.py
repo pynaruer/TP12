@@ -1,6 +1,6 @@
 def modulo(x,y):
-    if x%y != 0 :
-        return 
+    if x < y:
+        return x
     else :
         return modulo(x-y,y)
 

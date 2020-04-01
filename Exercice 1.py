@@ -4,7 +4,6 @@ def modulo(x,y):
     else :
         return modulo(x-y,y)
 
-
 print(modulo(6, 13)) # 6
 print(modulo(37, 10)) # 7
 print(modulo(8, 2)) # 0

@@ -5,7 +5,7 @@ def pow(x, n):
        return  1
    return x*pow(x,n-1)
 
-print(pow(42,0))
-print(pow(1, 10))
-print(pow(2,5))
-print(pow(7, 2))
+print(pow(42,0)) #1
+print(pow(1, 10)) #1
+print(pow(2,5)) #32
+print(pow(7, 2)) #49
